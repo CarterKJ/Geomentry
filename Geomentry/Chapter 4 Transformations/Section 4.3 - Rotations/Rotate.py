@@ -31,7 +31,7 @@ def rotate():
                 index += 1
             Xhold.clear()
             Yhold.clear()
-            index += 0
+            index = 0
         if deg == "180":
             for i in X:
                 X[index] *= -1 
@@ -58,17 +58,12 @@ def rotate():
             Xhold.clear()
             Yhold.clear()
             index += 0
-        if deg == "180":
-            for i in X:
-                X[index] *= -1 
-                Y[index] *= -1
-                index += 1 
-                
                 
             
     elif Direction == "cc":
         deg = input("Enter Rotation ('90','180','270')").lower()
-        if deg == "90":
+        index = 0
+        if deg == "270":
             for i in X:
                 X[index] *= -1
                 Xhold.append(X[index])
@@ -86,13 +81,7 @@ def rotate():
                 index += 1
             Xhold.clear()
             Yhold.clear()
-            index += 0
-        if deg == "270":
-            for i in X:
-                X[index] *= -1 
-                Y[index] *= -1
-                index += 1 
-        index = 0 
+            index = 0
         
         if deg == "90":
             for i in X:
@@ -118,6 +107,7 @@ def rotate():
                 X[index] *= -1 
                 Y[index] *= -1
                 index += 1 
+            index = 0
         
     else:
         print("Enter 'c' or 'cc'")
