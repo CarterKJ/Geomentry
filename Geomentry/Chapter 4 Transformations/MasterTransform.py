@@ -1,4 +1,4 @@
-#A combanation of all of the transform scripts
+#A combanation of most of the transform scripts
 import time
 X = []
 Y = []
