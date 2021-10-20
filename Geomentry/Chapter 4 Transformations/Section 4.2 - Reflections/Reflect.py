@@ -4,7 +4,7 @@ def reflect():
     YRange = 0
     index = 0
     XRange = 0
-    CordNum = int(input("Enter Number on Cords:"))
+    CordNum = int(input("Enter Number of Cords:"))
     for i in range(CordNum):
         CordsX = int(input("Enter X:"))
         X.append(CordsX)
