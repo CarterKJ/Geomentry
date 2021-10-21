@@ -1,6 +1,6 @@
 import time
 def midpoint(x1,y1,x2,y2):
-    return(f'({x1+x2/2},{y1+y2/2})')
+    return(f'({(x1+x2)/2},{(y1+y2)/2})')
     
 while True:
     time.sleep(1)
