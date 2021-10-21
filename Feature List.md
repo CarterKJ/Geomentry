@@ -16,4 +16,6 @@
   <hr>
 <li>Rotations</li>
   <hr>
+  <li>Reflect Over Custom Line</li>
+  <hr>
 </ul>
