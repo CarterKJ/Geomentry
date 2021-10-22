@@ -16,9 +16,24 @@ def reflect():
         X.append(CordsX)
         CordsY = int(input("Enter Y:"))
         Y.append(CordsY)
-    getAxis = input("Enter line with no spaces (Ex. x=9 or y=5):").lower()
+    getAxis = input("Enter line with no spaces (Ex. x=9 or y=x(only y=+-x)):").lower()
+    index = 0
+    if getAxis == "y=x":
+        for i in X:
+            Xdiff.append(X[index])
+            Ydiff.append(Y[index])
+            index += 1
+        X.clear()
+        Y.clear()
+        index = 0
+        for i in Xdiff:
+            X.append(Ydiff[index])
+            Y.append(Xdiff[index])
+            index += 1
+        Xdiff.clear()
+        Ydiff.clear()
     
-    if "x=" in getAxis:
+    elif "x=" in getAxis:
         Xnum = getAxis.replace("x=",'').replace(" ", "")
         Xnum = int(Xnum)
         index = 0
