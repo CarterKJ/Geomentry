@@ -18,4 +18,6 @@
   <hr>
   <li>Reflect Over Custom Line</li>
   <hr>
+  <li>Graph Dilation</li>
+  <hr>
 </ul>
