@@ -20,4 +20,6 @@
   <hr>
   <li>Graph Dilation</li>
   <hr>
+  <li>Dilations: find the scale factor</li>
+  <hr>
 </ul>
