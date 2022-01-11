@@ -1,6 +1,5 @@
-#Thanks to jvadair for this script
+# All credit to jvadair for this script. See jvadair/ptl-plus. Used and modified with permission.
 import os
-from time import sleep
 from math import sqrt
 
 def clear():
@@ -10,7 +9,6 @@ def clear():
     os.system('clear')
 
 clear()
-sleep(5)
 
 def find_perpendicular(x, original_slope):
     slope = -1/original_slope
