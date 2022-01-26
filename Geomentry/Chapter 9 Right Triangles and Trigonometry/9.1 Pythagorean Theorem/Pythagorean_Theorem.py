@@ -13,8 +13,8 @@ def Pythagorean_theorem(leg,base,hyp):
 print("Enter Triangle Sides; Enter 0 if blank")
 
 while True:
-    leg = int(input("Enter leg:"))
-    base = int(input("Enter base:"))
-    hyp = int(input("Enter hypotenuse:"))
+    leg = float(input("Enter leg:"))
+    base = float(input("Enter base:"))
+    hyp = float(input("Enter hypotenuse:"))
     print(Pythagorean_theorem(leg,base,hyp))
     print("")
