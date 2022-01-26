@@ -12,8 +12,8 @@ def Verify_Triangle(leg,base,hyp):
 
 
 while True:
-    leg = int(input("Enter leg:"))
-    base = int(input("Enter base:"))
-    hyp = int(input("Enter hypotenuse:"))
+    leg = float(input("Enter leg:"))
+    base = float(input("Enter base:"))
+    hyp = float(input("Enter hypotenuse:"))
     print(Verify_Triangle(leg,base,hyp))
     print("")
